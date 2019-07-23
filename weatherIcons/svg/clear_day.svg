@@ -1,0 +1,19 @@
+<svg width="100%" height= "100%" class="weatherIcon" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_2" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" r="47.634" fill="none" cy="99.291" cx="100.163"/>
+  <line id="svg_4" y2="42" y1="7" x2="100" x1="100" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" fill="none"/>
+  <line id="svg_5" y2="99" y1="99" x2="157" x1="192" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" fill="none"/>
+  <line id="svg_7" y2="156" y1="191" x2="100" x1="100" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" fill="none"/>
+  <line id="svg_8" y2="99" y1="99" x2="43" x1="8" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" fill="none"/>
+  <line id="svg_10" y2="59.043" y1="34.509" x2="140.651" x1="165.612" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" fill="none"/>
+  <line id="svg_11" y2="58.349" y1="33.388" x2="60.044" x1="35.51" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" fill="none"/>
+  <line id="svg_13" y2="138.957" y1="163.491" x2="59.35" x1="34.389" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" fill="none"/>
+  <line id="svg_14" y2="139.65" y1="164.611" x2="139.958" x1="164.492" stroke-width="6" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" fill="none"/>
+ </g>
+</svg>

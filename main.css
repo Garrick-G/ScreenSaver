@@ -1,0 +1,189 @@
+
+body{
+  position:relative;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  text-shadow:-1px -1px 1px #000,
+    1px -1px 1px #000,
+    -1px 1px 1px #000,
+     1px 1px 1px #000;
+}
+li{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 1vw;
+}
+.dateTime{
+  position:absolute;
+  color: white;
+  margin-left: 1%;
+}
+.calendar_tasks{
+  text-align: center;
+  position: fixed;
+  overflow: hidden;
+  margin: .5vh 0 .5vh 0;
+  left: 0%;
+  bottom: 0%;
+  width: auto;
+  max-width: 25vw;
+  height: 75vh;
+  color: white;
+  z-index: 1000;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.test-flex{
+  position: absolute;
+  margin: .5vh 0 .5vh 0;
+  right: .5%;
+  height: 100vh;
+  color: white;
+  z-index: 1000;
+}
+.test-box-big{
+  flex-basis: 35%;
+  padding: 0 5px 0 5px;
+  border-radius: 2.5%;
+  position:relative;
+  width: 20vw;
+}
+.test-box{
+  border-radius: 2.5%;
+  position:relative;
+  width: 15vw;
+  text-align: right;
+}
+.event{
+  border-top: solid 2px white;
+  margin: auto;
+  margin-top: 0;
+  padding: 0 5px 0 5px;
+  border-radius: 2.5%;
+  position:relative;
+  flex-basis: 20%;
+  height: auto;
+  width: 100%;
+}
+.event > h3{
+  text-align: center;
+  margin:0px;
+  padding:0px;
+}
+.fade {
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transition: all 1s ease-in-out;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hidden{
+  display: none;
+}
+.time{
+  font-size: 6vh;
+}
+.date{
+  font-size: 4vh;
+}
+.current{
+  height:25vh;
+  width: 20vw;
+}
+.current br{
+  display: none;
+}
+.current h1{
+  font-size: 5vh;
+
+}
+.current img{
+  width:8vw;
+  height: 8vw;
+}
+.forecast{
+  height: 15vh;
+  padding: 0;
+  margin-top: 5vh;
+}
+.forecast img{
+  width: 25%;
+  height: 50%;
+}
+.weather{
+  position: absolute;
+  left: 1%;
+  margin-top: 1%;
+  height: auto;
+  width: 20vw;
+  z-index: 1000;
+  text-align: center;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.temp{
+  display: inline;
+  width: auto;
+  margin-bottom: 0;
+}
+.icon{
+  position: relative;
+  vertical-align: middle;
+  margin-left: 5px;
+  display: inline;
+  margin-bottom:0;
+}
+.city{
+  position: relative;
+  margin: auto;
+  text-align: center;
+
+}
+
+
+@media screen and (max-width: 800px) {
+  li{
+      font-size: 2vw;
+  }
+  .calendar_tasks{
+    width: 25vw;
+  }
+  .current{
+    margin:auto;
+    text-align: center;
+    height:15vh;
+    width: 25vh;
+  }
+  .current br{
+    display: none;
+  }
+  .current img{
+    width: 10vh;
+    height: 10vh;
+  }
+  .forecast img{
+    width: 8vh;
+    height: 8vh;
+  }
+  .forecast{
+    text-align: center;
+    height: 20vh;
+    width:100%;
+    padding: 0;
+    margin-right: 0;
+  }
+
+
+}
